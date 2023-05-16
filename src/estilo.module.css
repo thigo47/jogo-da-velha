@@ -1,10 +1,11 @@
-*{
+* {
     font-size: larger;
     text-align: center;
 }
+
 .container {
     background-color: #588157;
-    width:500px;
+    width: 500px;
     height: 500px;
     margin: auto;
     display: flex;
@@ -12,78 +13,24 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-border-radius: 20px;
-padding: 0px  20px  0px  20px;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
 }
 
-.q1 {
+.q {
     background-color: #A3B18A;
     width: 150px;
     height: 150px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
     cursor: pointer;
+    border-radius: 5px;
 }
 
-.q2 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
+.q:hover{
+    scale: 1.1;
+    transition: 1s;
 }
-
-.q3 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q4 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q5 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q6 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q7 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q8 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
-}
-
-.q9 {
-    background-color: #A3B18A;
-    width: 150px;
-    height: 150px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.196);
-    cursor: pointer;
+.q:not(:hover){
+    scale: 1;
+    transition: 1s;
 }

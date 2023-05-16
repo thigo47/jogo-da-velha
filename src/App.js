@@ -21,6 +21,12 @@ function App() {
     setInterval(()=>{
       setValorq2("O")
     }, 1000)
+
+    for (var i = 0; i < 10; i++) {
+      var valorAleatorio = Math.floor(Math.random() * 10) + 1;
+      console.log(valorAleatorio);
+    }
+    
    
   }
   
@@ -28,24 +34,24 @@ function App() {
     <div className="App">
       <div className={styles.container}>
 
-      <div className={styles.q1} onClick={clicouq1}>{valorq1}</div>
+      <div className={styles.q} onClick={clicouq1}>{valorq1}</div>
       
-      <div className={styles.q2}>{valorq2}</div>
+      <div className={styles.q}>{valorq2}</div>
       
-      <div className={styles.q3}>{valorq3}</div>
+      <div className={styles.q}>{valorq3}</div>
       
       
-      <div className={styles.q4}>{valorq4}</div>
+      <div className={styles.q}>{valorq4}</div>
       
-      <div className={styles.q5}>{valorq5}</div>
+      <div className={styles.q}>{valorq5}</div>
 
-      <div className={styles.q6}>{valorq6}</div>
+      <div className={styles.q}>{valorq6}</div>
 
-      <div className={styles.q7}>{valorq7}</div>
+      <div className={styles.q}>{valorq7}</div>
 
-      <div className={styles.q8}>{valorq8}</div>
+      <div className={styles.q}>{valorq8}</div>
 
-      <div className={styles.q9}>{valorq9}</div>
+      <div className={styles.q}>{valorq9}</div>
 
 
 

@@ -32,8 +32,9 @@ function App() {
   
   return (
     <div className="App">
+      <div className={styles.seta}> V </div>
       <div className={styles.container}>
-
+  
       <div className={styles.q} onClick={clicouq1}>{valorq1}</div>
       
       <div className={styles.q}>{valorq2}</div>

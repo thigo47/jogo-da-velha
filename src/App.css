@@ -1,7 +1,27 @@
+body{
+ background-color: red;
+
+}
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
   height: 100vh;
+  background-image: linear-gradient(to left , #80FFDB, #56CFE1 , #5E60CE , #7400B8);
+  animation: fundo 10s ease infinite;
+
 }
+
+@keyframes fundo {
+0%{
+  background-position: 0 , 50% ;
+}
+50%{
+  background-position: 50% , 100%;
+}
+100%{
+  background-position: 0 ,50%;
+}
+}
+
+/* nao esta funcionando por algum motivo*/

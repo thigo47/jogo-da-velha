@@ -34,3 +34,28 @@
     scale: 1;
     transition: 1s;
 }
+.q:active{
+    transition: 0.5s;
+    animation: transform 1s forwards ;
+}
+
+.seta{
+    rotate: -90deg;
+    font-size: larger;
+    padding: 10px;
+    animation: seta 1s ease-in-out alternate infinite;
+}
+@keyframes seta {
+    0%{
+        transform: translatey(0px);
+    }
+    100%{
+        transform: translatey(50px);
+    }
+}
+
+@keyframes transform {
+    to {
+        border-radius: 100px;
+    }
+}

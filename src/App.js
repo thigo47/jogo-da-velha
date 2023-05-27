@@ -60,7 +60,7 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
@@ -90,9 +90,9 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 2){
-      setValorq3("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 4){
       setValorq4("O")
     }else if (numeroAleatorio == 5){
@@ -120,11 +120,11 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 2){
-      setValorq4("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 5){
       setValorq5("O")
     }else if (numeroAleatorio == 6){
@@ -150,13 +150,13 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
       setValorq4("O")
     }else if (numeroAleatorio == 2){
-      setValorq5("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 6){
       setValorq6("O")
     }else if (numeroAleatorio == 7){
@@ -180,7 +180,7 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
@@ -188,7 +188,7 @@ function App() {
     }else if (numeroAleatorio == 5){
       setValorq5("O")
     }else if (numeroAleatorio == 2){
-      setValorq6("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 7){
       setValorq7("O")
     }else if (numeroAleatorio == 8){
@@ -210,7 +210,7 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
@@ -220,7 +220,7 @@ function App() {
     }else if (numeroAleatorio == 6){
       setValorq6("O")
     }else if (numeroAleatorio == 2){
-      setValorq7("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 8){
       setValorq8("O")
     }else if (numeroAleatorio == 9){
@@ -240,7 +240,7 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
@@ -252,7 +252,7 @@ function App() {
     }else if (numeroAleatorio == 7){
       setValorq7("O")
     }else if (numeroAleatorio == 2){
-      setValorq8("O")
+      setValorq2("O")
     }else if (numeroAleatorio == 9){
       setValorq9("O")
     }
@@ -270,7 +270,7 @@ function App() {
       console.log(numeroAleatorio);
     }
     if (numeroAleatorio == 1) {
-      setValorq2("O")
+      setValorq1("O")
     }else if (numeroAleatorio == 3){
       setValorq3("O")
     }else if (numeroAleatorio == 4){
@@ -284,7 +284,7 @@ function App() {
     }else if (numeroAleatorio == 8){
       setValorq8("O")
     }else if (numeroAleatorio == 2){
-      setValorq9("O")
+      setValorq2("O")
     }
   }
   return (
